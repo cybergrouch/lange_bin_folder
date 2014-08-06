@@ -1,8 +1,8 @@
 #!/bin/bash
 
 function tabTheme {
-  NAME=$1; if [ -z "$NAME" ]; then NAME="Default"; fi
-  osascript -e "tell application \"Terminal\" to set current settings of front window to settings set \"$NAME\""
+	NAME=$1; if [ -z "$NAME" ]; then NAME="Default"; fi
+	osascript -e "tell application \"Terminal\" to set current settings of front window to settings set \"$NAME\""
 }
 
 function paypalJavaTerminal {
