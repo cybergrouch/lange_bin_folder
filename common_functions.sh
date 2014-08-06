@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function tabTheme {
-	NAME=$1; if [ -z "$NAME" ]; then NAME="Default"; fi
+	NAME=$1; if [ -z "$NAME" ]; then NAME="Ocean"; fi
 	osascript -e "tell application \"Terminal\" to set current settings of front window to settings set \"$NAME\""
 }
 
@@ -14,7 +14,7 @@ function sshTerminal {
 }
 
 function normalTerminal {
-	tabTheme "Ocean"
+	tabTheme
 }
 
 function initPayPalJava {
