@@ -17,7 +17,7 @@ function normalTerminal {
 	tabTheme "Ocean"
 }
 
-function initJava {
-	source ~/bin/setJavaHome.sh
+function initPayPalJava {
+	source ~/bin/setPayPalJavaHome.sh
 	paypalJavaTerminal
 }

@@ -32,4 +32,5 @@ eval "$(rbenv init -)"
 
 if [ -f ~/bin/common_functions.sh ]; then
 	source ~/bin/common_functions.sh
+	normalTerminal
 fi
