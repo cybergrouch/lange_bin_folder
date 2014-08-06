@@ -1,8 +1,12 @@
 #!/bin/bash
 
+source ~/bin/common_functions.sh
+
 function sshToServer() {
+	sshTerminal
 	echo Remoting to $1
 	ssh $1
+	normalTerminal
 }
 
 function hyper() {
