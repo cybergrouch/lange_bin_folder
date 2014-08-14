@@ -14,10 +14,18 @@ function sshTerminal {
 }
 
 function normalTerminal {
-	tabTheme
+	tabTheme "Ocean"
 }
 
 function initPayPalJava {
 	source ~/bin/setPayPalJavaHome.sh
 	paypalJavaTerminal
+}
+
+function makeTitle {
+	TITLE=$1
+	
+	if [ -n "$TITLE" ]; then
+		echo -n -e "\033]0;$TITLE\007"
+	fi
 }
