@@ -1,0 +1,10 @@
+git push origin feature_drive_token_threshold_via_server --force
+git push origin feature_trigger_dyson_on_onboarding --force
+git push origin feature_fix_dyson_subscription --force
+git push origin PR_fix_app_crash_due_to_nfc_permissions --force
+git push origin Applause_Build --force
+git push origin PR_cache_getstatusresult --force
+git push origin PR_consume_cached_getstatusresult --force
+git push origin PR_nfcsdk_0_5_1 --force
+git push origin PR_cache_getstatusresult --force
+git push origin PR_remove_showNFCTile_checkbox --force
